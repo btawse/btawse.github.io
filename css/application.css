@@ -86,9 +86,16 @@ code {
 }
 
 footer {
-  margin-top: 100px;
-  padding-top: 60px;
+  margin-top: 20px;
+  padding-top: 20px;
   text-align: center;
   color: #aaa;
   border-top: 1px solid #eee;
+}
+
+@media (min-width: 768px) {
+  footer {
+    margin-top: 80px;
+    padding-top: 40px;
+  }
 }
