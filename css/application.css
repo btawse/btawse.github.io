@@ -99,3 +99,26 @@ footer {
     padding-top: 40px;
   }
 }
+
+#download-cv {
+  position: absolute;
+  top: 0px;
+  right: 15px;
+  background-color: #333;
+  font-weight: bold;
+}
+
+#download-cv>a {
+  color: white;
+}
+
+li#download-cv>a:hover {
+  background-color: white;
+  color: #333;
+}
+
+@media (min-width: 768px) {
+  #download-cv {
+    position: static;
+  }
+}
