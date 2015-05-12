@@ -23,15 +23,29 @@ body {
 }
 
 .big-link {
+  padding: 0px;
   display: block;
-  padding: 50px 0px;
   width: 100%;
   border-radius: 0px;
-  font-size: 20pt;
+  margin-bottom: 20px;
 }
 
 .big-link>p {
   font-size: 14pt;
+}
+
+.big-link>h2 {
+  font-size: 14pt;
+}
+
+@media (min-width: 768px) {
+  .big-link {
+    padding: 50px 0px;
+    margin-bottom: 0px;
+  }
+  .big-link>h2 {
+    font-size: 30px;
+  }
 }
 
 .navbar-default .navbar-nav>li.white-text>a {
@@ -121,4 +135,18 @@ li#download-cv>a:hover {
   #download-cv {
     position: static;
   }
+}
+
+#skills-col {
+  /* skillz dat killz, BRAP BRAP */
+  padding-right: 7.5px;
+}
+
+#projects-col {
+  padding-right: 7.5px;
+  padding-left: 7.5px;
+}
+
+#about-col {
+  padding-left: 7.5px;
 }
