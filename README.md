@@ -1,3 +1,5 @@
 # btawse.github.io
 
-My site.
+Basic site I made to promote myself.
+
+Uses Bootstrap and is fully responsive.
